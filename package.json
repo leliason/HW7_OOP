@@ -1,0 +1,19 @@
+{
+  "name": "registry-performance-lab",
+  "version": "1.0.0",
+  "description": "CIST 0265 - Real-World Performance Analysis",
+  "type": "module",
+  "main": "dist/homework/hw_performance.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/homework/hw_performance.js",
+    "dev": "ts-node --esm src/homework/hw_performance.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
